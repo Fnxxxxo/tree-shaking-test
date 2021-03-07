@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ES2018",
+    "module": "ESNext",
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "dom",
+      "dom.iterable"
+    ],
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "preserveSymlinks": true,
+    "outDir": "dist",
+    "types": [
+      "@types/node"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
